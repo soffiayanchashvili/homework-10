@@ -3,3 +3,45 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.header{
+    position: relative;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+.background{
+    height: 900px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 127px;
+    
+}
+ul{ 
+    list-style: none;
+    display: flex;
+}
+li{
+    display: inline-block;
+    position: relative;
+    height: 18px;
+    color: white;
+    padding: 59px;
+    transition-property: all;
+    transition-delay: 0.2s;
+}
+a :hover{
+    background-color: brown;
+    color: white;
+}
+h1{
+    position: absolute;
+    color: white;
+    letter-spacing: 9px;
+    left: 180px;
+    top: 812px;
+}
